@@ -68,5 +68,20 @@ function pop(array){
                 return array
         }
 
+        function removeElement(array, index){
+            array.pop(index)
+        return array
+        }
+
+        function concatArrays(array1 , array2){
+            var x=array1.concat(array2)
+            return x 
+            }
+
+            function concatThreeArrays(array1,array2,array3){
+                var x=array1.concat(array2 , array3)
+                return x
+            }
+
 
 
